@@ -1,0 +1,35 @@
+/* Write your CSS code here */
+.container {
+  text-align: center;
+}
+
+.img {
+  height: 230px;
+  width: 230px;
+}
+
+@media (min-width: 768px) {
+  .img {
+    height: 330px;
+    width: 330px;
+  }
+}
+
+.main-title {
+  color: #6d396b;
+  font-size: 27px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+
+@media (min-width: 768px) {
+  .main-title {
+    font-size: 30px;
+  }
+}
+
+.caption {
+  color: #555555;
+  font-size: 24px;
+  font-family: 'Roboto';
+}
